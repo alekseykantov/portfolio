@@ -6,16 +6,20 @@
 .page {
   font-family: 'Nunito', Arial, sans-serif;
   font-style: normal;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
-.page__wrapper {
+.page__content {
   width: 1100px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
-  border: 1px solid cyan;
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
+  /* border: 1px solid blue; */
 }
 
 .page__header {
@@ -23,7 +27,7 @@
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 100px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .header__list {
@@ -33,10 +37,6 @@
 }
 
 .header__list-item {
-  margin-top: 18px;
-  margin-right: 35px;
-  margin-bottom: 18px;
-  margin-left: 35px;
   font-weight: 800;
   font-size: 12px;
   letter-spacing: 3px;
@@ -45,15 +45,22 @@
   color: rgba(0, 127, 255, 1);
 }
 
-.header__list-item_works {
+.menu__list-item {
+  margin-top: 18px;
+  margin-right: 35px;
+  margin-bottom: 18px;
+  margin-left: 35px;
+}
+
+.menu__list-item_works {
   margin-left: 0px;
 }
 
-.header__list-item_about {
+.menu__list-item_about {
 
 }
 
-.header__list-item_avatar {
+.menu__list-item_avatar {
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -62,11 +69,11 @@
   width: 52px;
 }
 
-.header__list-item_links {
+.menu__list-item_links {
 
 }
 
-.header__list-item_contacts {
+.menu__list-item_contacts {
   margin-right: 0;
 }
 
@@ -88,7 +95,7 @@
   width: 550px;
   margin-top: 117px;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: 53px;
   margin-left: auto;
   line-height: 60px;
   font-size: 48px;
@@ -98,4 +105,35 @@
 
 .blue-text {
   color: rgba(0, 127, 255, 1);
+}
+
+.header__social {
+  width: 114px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.social__list-item {
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.social-logo {
+  height: 16px;
+}
+
+.social__list-item_twitter {
+  margin-left: 0;
+}
+
+.social__list-item_behance {
+
+}
+
+.social__list-item_instagram {
+  margin-right: 0;
 }
