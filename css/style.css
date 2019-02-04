@@ -1,12 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .page {
   font-family: 'Nunito', Arial, sans-serif;
   font-style: normal;
-  outline: 1px solid green;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  /* outline: 1px solid green; */
 }
 
 .page__content {
@@ -21,7 +20,7 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 0;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
 
 .page__header {
@@ -30,16 +29,24 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .page__list {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
-.header__list-item {
+.page__list-item {
   font-weight: 800;
   font-size: 12px;
   letter-spacing: 3px;
@@ -62,9 +69,9 @@
 
 .menu__list-item_avatar {
   margin-top: 0;
-  margin-right: auto;
+  margin-right: 279px;
   margin-bottom: 0;
-  margin-left: auto;
+  margin-left: 298px;
   height: 52px;
   width: 52px;
 }
@@ -87,30 +94,30 @@
   color: rgba(0, 127, 255, 1);
 }
 
-.page__title {
+.main__title_text {
   width: 550px;
-  margin-top: 17px;
+  margin-top: 20px;
   margin-right: auto;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
   margin-left: auto;
   line-height: 60px;
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
-  outline: 1px solid brown;
+  /* outline: 1px solid brown; */
 }
 
 .blue-text {
   color: rgba(0, 127, 255, 1);
 }
 
-.page__social {
+.main__social {
   width: 114px;
-  margin-top: 36px;
+  margin-top: 49px;
   margin-right: auto;
-  margin-bottom: 36px;
+  margin-bottom: 49px;
   margin-left: auto;
-  outline: 1px solid navy;
+  /* outline: 1px solid navy; */
 }
 
 .social__list-item {
@@ -138,22 +145,30 @@
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
-  outline: 1px solid violet;
+  /* outline: 1px solid violet; */
 }
 
-.page__works {
+.main__section-title {
+  display: none;
+}
+
+.main__works {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 84px;
+  margin-top: 117px;
   margin-right: 0;
   margin-bottom: 84px;
   margin-left: 0;
-  outline: 1px solid coral;
+  /* outline: 1px solid coral; */
+}
+
+.works__item {
+  position: relative;
 }
 
 .works__item_top-left {
-  background-image: url(../images/photo_top-left.png);
+  background-image: url("../images/photo_top-left.png");
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 60px;
@@ -163,7 +178,7 @@
 }
 
 .works__item_bottom-left {
-  background-image: url(../images/photo_bottom-left.png);
+  background-image: url("../images/photo_bottom-left.png");
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -173,7 +188,7 @@
 }
 
 .works__item_top-right {
-  background-image: url(../images/photo_top-right.png);
+  background-image: url("../images/photo_top-right.png");
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 60px;
@@ -183,11 +198,47 @@
 }
 
 .works__item_bottom-right {
-  background-image: url(../images/photo_bottom-right.png);
+  background-image: url("../images/photo_bottom-right.png");
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
   width: 520px;
   height: 435px;
+}
+
+.works__featured-badge {
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  background-color: rgb(255, 227, 0);
+  border-radius: 13.5px;
+  font-weight: 800;
+  line-height: 16px;
+  font-size: 12px;
+  left: 60px;
+  bottom: 152px;
+}
+
+.works__featured-badge_text {
+  display: block;
+  margin-top: 3px;
+  margin-right: 15px;
+  margin-bottom: 4px;
+  margin-left: 15px;
+}
+
+.works__item_text {
+  position: absolute;
+  line-height: 36px;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  width: 317px;
+  left: 60px;
+  bottom: 61px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
