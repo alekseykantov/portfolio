@@ -153,7 +153,7 @@
 }
 
 .works__item_top-left {
-  background-color: rgb(207, 207, 207);
+  background-image: url(../images/photo_top-left.png);
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 60px;
@@ -163,7 +163,7 @@
 }
 
 .works__item_bottom-left {
-  background-color: rgb(207, 207, 207);
+  background-image: url(../images/photo_bottom-left.png);
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -173,7 +173,7 @@
 }
 
 .works__item_top-right {
-  background-color: rgb(207, 207, 207);
+  background-image: url(../images/photo_top-right.png);
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 60px;
@@ -183,7 +183,7 @@
 }
 
 .works__item_bottom-right {
-  background-color: rgb(207, 207, 207);
+  background-image: url(../images/photo_bottom-right.png);
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
