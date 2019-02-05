@@ -188,7 +188,7 @@
 }
 
 .main__about {
-	margin-bottom: 56px;
+	margin-bottom: 149px;
 }
 
 .about__item_title {
@@ -229,4 +229,19 @@
 	margin-top: 20px;
 	margin-right: 25px;
 }
-	
+
+.about__content {
+	margin-bottom: 60px;
+}
+
+.about__brands {
+	margin-left: 28px;
+}
+
+.logo-airbnb {
+	margin-left: 142px;
+}
+
+.logo-dropbox {
+	margin-left: 132px;
+}
