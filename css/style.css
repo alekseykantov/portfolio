@@ -57,13 +57,22 @@
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.anchor-link {
+.link {
 	color: #007FFF;
 	text-decoration: none;
 }
 
-.anchor-link:visited {
+.link:visited {
 	color: #007FFF;
+}
+
+.works-link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.works-link:visited {
+	color: #FFFFFF;
 }
 
 .page__main {
@@ -177,7 +186,6 @@
 
 .works__item_title {
 	bottom: 61px;
-	color: #FFFFFF;
 	font-size: 28px;
 	font-weight: 700;
 	left: 60px;
@@ -189,6 +197,12 @@
 
 .main__about {
 	margin-bottom: 149px;
+}
+
+.about__content{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 61px;
 }
 
 .about__item_title {
@@ -214,34 +228,56 @@
 .about__item {
 	height: 220px;
 	width: 495px;
+	margin: 0;
+	padding: 0;
 }
 
-.about__item_bottom-left {
+.about__item_motion {
+	margin-left: 85px;
+}
+
+.about__item_branding {
 	margin-top: 20px;
 	width: 528px;
 }
 
-.about__item_top-right {
-	margin-right: 25px;
-}
-
-.about__item_bottom-right {
+.about__item_development {
 	margin-top: 20px;
-	margin-right: 25px;
-}
-
-.about__content {
-	margin-bottom: 60px;
+	margin-left: 52px;
 }
 
 .about__brands {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.logo-google {
 	margin-left: 28px;
 }
 
 .logo-airbnb {
-	margin-left: 142px;
+	margin-left: 145px;
 }
 
 .logo-dropbox {
-	margin-left: 132px;
+	margin-left: 137px;
+}
+
+.links__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 232px;
+}
+
+.links__item {
+	width: 520px;
+	min-height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.links__item_year {
+	color: #979797;
 }

@@ -13,15 +13,15 @@
 		<header class="page__header">
 			<ul class="header__menu page__list">
 				<li class="menu__list-item menu__list-item_works page__list-item">
-					<a class="anchor-link" href="#works">Works</a></li>
+					<a class="link" href="#works">Works</a></li>
 				<li class="menu__list-item menu__list-item_about page__list-item">
-					<a class="anchor-link" href="#about">About</a></li>
+					<a class="link" href="#about">About</a></li>
 				<li class="menu__list-item menu__list-item_avatar page__list-item">
 					<img class="image__header-avatar" src="images/avatar.png" alt=""></li>
 				<li class="menu__list-item menu__list-item_links page__list-item">
-					<a class="anchor-link" href="#links">Links</a></li>
+					<a class="link" href="#links">Links</a></li>
 				<li class="menu__list-item menu__list-item_contacts page__list-item">
-					<a class="anchor-link" href="#contacts">Contacts</a></li></ul>
+					<a class="link" href="#contacts">Contacts</a></li></ul>
 		</header>
 		<main class="page__main">
 			<section class="main__section main__title">
@@ -30,13 +30,13 @@
 			<section class="main__section main__social">
 				<ul class="social__menu page__list">
 					<li class="social__list-item social__list-item_twitter page__list-item">
-						<a class="external-link" href="https://twitter.com/">
+						<a class="link" href="https://twitter.com/">
 							<img class="social-logo logo-twitter" src="images/logo-twitter.png" alt=""></a></li>
 					<li class="social__list-item social__list-item_behance page__list-item">
-						<a class="external-link" href="https://www.behance.net/">
+						<a class="link" href="https://www.behance.net/">
 							<img class="social-logo logo-behance" src="images/logo-behance.png" alt=""></a></li>
 					<li class="social__list-item social__list-item_instagram page__list-item">
-						<a class="external-link" href="https://www.instagram.com/">
+						<a class="link" href="https://www.instagram.com/">
 							<img class="social-logo logo-instagram" src="images/logo-instagram.png" alt=""></a></li></ul>
 			</section>
 			<section class="main__section main__works">
@@ -46,34 +46,36 @@
 						<div class="works__item works__item_top-left">
 							<div class="works__featured-badge">
 								<span class="works__featured-badge_text">Featured</span></div>
-							<h3 class="works__item_title">Motivation Is The<br>First Step To Success</h3></div>
+							<h3 class="works__item_title">
+								<a class="works__item_text works-link" href="#">Motivation Is The<br>First Step To Success</a></h3></div>
 						<div class="works__item works__item_bottom-left">
-							<h3 class="works__item_title">Benjamin Franklin S Method Of Habit Formation</h3></div></div>
+							<h3 class="works__item_title">
+								<a class="works__item_text works-link" href="#">Benjamin Franklin S Method Of Habit Formation</a></h3></div></div>
 					<div class="page__column page__column_right">
 						<div class="works__item works__item_top-right">
-							<h3 class="works__item_title">How Great Is The Strength Of Your Belief</h3></div>
+							<h3 class="works__item_title">
+								<a class="works__item_text works-link" href="#">How Great Is The Strength Of Your Belief</a></h3></div>
 						<div class="works__item works__item_bottom-right">
 							<div class="works__featured-badge">
 								<span class="works__featured-badge_text">Featured</span></div>
-							<h3 class="works__item_title">Increasing Prosperity With Positive Thinking</h3></div></div></div>
+							<h3 class="works__item_title">
+								<a class="works__item_text works-link" href="#">Increasing Prosperity With Positive Thinking</a></h3></div></div></div>
 			</section>
 			<section class="main__section main__about">
 				<h2 class="main__section-title main__section-title_about">About</h2>
-				<div class="page__two-columns about__content">
-					<div class="page__column page__column_left">
-						<div class="about__item about__item_top-left">
-							<h3 class="about__item_title">UX/UI</h3>
-							<p class="about__item_text">Of course, motivation really isn’t <span class="blue-text">simple at all</span>. That is why there is multi-billion industry focused on self-help books, tapes,<br>seminars, camps, and coaches.</p></div>
-						<div class="about__item about__item_bottom-left">
-							<h3 class="about__item_title">Branding</h3>
-							<p class="about__item_text">If at anytime, you notice that a friend of yours is getting demotivated about life, try to inspire him/her as much as you can. Even if you are physically away from your friend you can send him inspirational ecards and tell him to download motivational screensavers and wallpapers. So motivate everyone who needs the boost.</p></div></div>
-					<div class="page__column page__column_right">
-						<div class="about__item about__item_top-right">
-							<h3 class="about__item_title">Motion</h3>
-							<p class="about__item_text">As humans, we have progressed in so many ways, but we have lost touch with our bodies, nature, and the power of prayer. There seems to be a spiritual renaissance, of sorts, going on in the “new age” movement.</p></div>
-						<div class="about__item about__item_bottom-right">
-							<h3 class="about__item_title">Development</h3>
-							<p class="about__item_text">Personally, the importance does not lie in what religion you are; however, a lack of religion does seem to run parallel with depression. This is classified as spiritual illness, which will have a negative effect on you mentally, physically, or totally.</p></div></div></div>
+				<div class="about__content">
+					<div class="about__item about__item_ux-ui">
+						<h3 class="about__item_title">UX/UI</h3>
+						<p class="about__item_text">Of course, motivation really isn’t <span class="blue-text">simple at all</span>. That is why there is multi-billion industry focused on self-help books, tapes,<br>seminars, camps, and coaches.</p></div>
+					<div class="about__item about__item_motion">
+						<h3 class="about__item_title">Motion</h3>
+						<p class="about__item_text">As humans, we have progressed in so many ways, but we have lost touch with our bodies, nature, and the power of prayer. There seems to be a spiritual renaissance, of sorts, going on in the “new age” movement.</p></div>
+					<div class="about__item about__item_branding">
+						<h3 class="about__item_title">Branding</h3>
+						<p class="about__item_text">If at anytime, you notice that a friend of yours is getting demotivated about life, try to inspire him/her as much as you can. Even if you are physically away from your friend you can send him inspirational ecards and tell him to download motivational screensavers and wallpapers. So motivate everyone who needs the boost.</p></div>
+					<div class="about__item about__item_development">
+						<h3 class="about__item_title">Development</h3>
+						<p class="about__item_text">Personally, the importance does not lie in what religion you are; however, a lack of religion does seem to run parallel with depression. This is classified as spiritual illness, which will have a negative effect on you mentally, physically, or totally.</p></div></div>
 				<div class="about__brands">
 					<img class="about-logo logo-google" src="images/logo-google.png" alt="">
 					<img class="about-logo logo-airbnb" src="images/logo-airbnb.png" alt="">
@@ -81,14 +83,28 @@
 			</section>
 			<section class="main__section main__links">
 				<h2 class="main__section-title main__section-title_links">Links</h2>
-				<div class="page__two-columns links__content">
-					<div class="page__column page__column-left">
-						
-					</div>
-					<div class="page__column page__column-right">
-						
-					</div>
-				</div>
+				<div class="links__content">
+					<div class="links__item">
+						<a class="links__item_text link" href="#">Harness The Power Of Words In Your Life</a>
+						<span class="links__item_year">2018</span></div>
+					<div class="links__item">
+						<a class="links__item_text link" href="#">A Starter Guide To Self Improvement</a>
+						<span class="links__item_year">2018</span></div>
+					<div class="links__item">
+						<a class="links__item_text link" href="#">Benjamin Franklin S Method Of Habit Formation</a>
+						<span class="links__item_year">2018</span></div>
+					<div class="links__item">
+						<a class="links__item_text link" href="#">Does Your Life Lack Meaning</a>
+						<span class="links__item_year">2018</span></div>
+					<div class="links__item">
+						<a class="links__item_text link" href="#">Hypnotize Yourself Into The Ghost Of Christmas Future</a>
+						<span class="links__item_year">2017</span></div>
+					<div class="links__item">
+						<a class="links__item_text link" href="#">Hypnotize Yourself Into The Ghost Of Christmas Future</a>
+						<span class="links__item_year">2016</span></div>
+					<div class="links__item">
+						<a class="links__item_text link" href="#">Self Motivation How To Keep Yourself Motivated</a>
+						<span class="links__item_year">2016</span></div></div>
 			</section>
 		</main></div>
 </body>
